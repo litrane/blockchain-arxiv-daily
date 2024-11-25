@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.11.24
+## Updated on 2024.11.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -1090,7 +1090,7 @@
 |**2023-09-13**|**Chrisimos: A useful Proof-of-Work for finding Minimal Dominating Set of a graph**|Diptendu Chatterjee et.al.|[2308.04407](http://arxiv.org/abs/2308.04407)| Hash-based Proof-of-Work (PoW) used in the Bitcoin Blockchain leads to high energy consumption and resource wastage. In this paper, we aim to re-purpose the energy by replacing the hash function with real-life problems having commercial utility. We propose Chrisimos, a useful Proof-of-Work where miners are required to find a minimal dominating set for real-life graph instances. A miner who is able to output the smallest dominating set for the given graph within the block interval time wins the mining game. We also propose a new chain selection rule that ensures the security of the scheme. Thus our protocol also realizes a decentralized minimal dominating set solver for any graph instance. We provide formal proof of correctness and show via experimental results that the block interval time is within feasible bounds of hash-based PoW. |
 |**2023-08-08**|**An Ethereum-based Product Identification System for Anti-counterfeits**|Shashank Gupta et.al.|[2308.04006](http://arxiv.org/abs/2308.04006)|null|
 |**2023-08-07**|**ForensiBlock: A Provenance-Driven Blockchain Framework for Data Forensics and Auditability**|Asma Jodeiri Akbarfam et.al.|[2308.03927](http://arxiv.org/abs/2308.03927)|null|
-|**2024-11-12**|**Enabling Data Confidentiality with Public Blockchains**|Edoardo Marangone et.al.|[2308.03791](http://arxiv.org/abs/2308.03791)|**[link](https://github.com/apwbs/martsia-ethereum)**|
+|**2024-11-22**|**Enabling Data Confidentiality with Public Blockchains**|Edoardo Marangone et.al.|[2308.03791](http://arxiv.org/abs/2308.03791)|**[link](https://github.com/apwbs/martsia-ethereum)**|
 |**2023-07-25**|**Towards Integrated Traffic Control with Operating Decentralized Autonomous Organization**|Shengyue Yao et.al.|[2308.03769](http://arxiv.org/abs/2308.03769)|null|
 |**2023-08-07**|**When GPT Meets Program Analysis: Towards Intelligent Detection of Smart Contract Logic Vulnerabilities in GPTScan**|Yuqiang Sun et.al.|[2308.03314](http://arxiv.org/abs/2308.03314)|null|
 |**2023-08-19**|**An Empirical Study of AI-based Smart Contract Creation**|Rabimba Karanjai et.al.|[2308.02955](http://arxiv.org/abs/2308.02955)|null|
@@ -1266,7 +1266,7 @@
 |**2023-10-19**|**Building Trust Takes Time: Limits to Arbitrage for Blockchain-Based Assets**|Nikolaus Hautsch et.al.|[1812.00595](http://arxiv.org/abs/1812.00595)| A blockchain replaces central counterparties with time-consuming consensus protocols to record the transfer of ownership. This settlement latency slows cross-exchange trading, exposing arbitrageurs to price risk. Off-chain settlement, instead, exposes arbitrageurs to costly default risk. We show with Bitcoin network and order book data that cross-exchange price differences coincide with periods of high settlement latency, asset flows chase arbitrage opportunities, and price differences across exchanges with low default risk are smaller. Blockchain-based trading thus faces a dilemma: Reliable consensus protocols require time-consuming settlement latency, leading to arbitrage limits. Circumventing such arbitrage costs is possible only by reinstalling trusted intermediation, which mitigates default risk. |
 |**2023-09-24**|**BlockTag: Design and applications of a tagging system for blockchain analysis**|Yazan Boshmaf et.al.|[1809.06044](http://arxiv.org/abs/1809.06044)| Annotating blockchains with auxiliary data is useful for many applications. For example, e-crime investigations of illegal Tor hidden services, such as Silk Road, often involve linking Bitcoin addresses, from which money is sent or received, to user accounts and related online activities. We present BlockTag, an open-source tagging system for blockchains that facilitates such tasks. We describe BlockTag's design and present three analyses that illustrate its capabilities in the context of privacy research and law enforcement. |
 
-<p align=right>(<a href=#Updated-on-20241124>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241125>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors

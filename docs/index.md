@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.11.24
+## Updated on 2024.11.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## blockchain
@@ -1087,7 +1087,7 @@ layout: default
 |**2023-09-13**|**Chrisimos: A useful Proof-of-Work for finding Minimal Dominating Set of a graph**|Diptendu Chatterjee et.al.|[2308.04407](http://arxiv.org/abs/2308.04407)| Hash-based Proof-of-Work (PoW) used in the Bitcoin Blockchain leads to high energy consumption and resource wastage. In this paper, we aim to re-purpose the energy by replacing the hash function with real-life problems having commercial utility. We propose Chrisimos, a useful Proof-of-Work where miners are required to find a minimal dominating set for real-life graph instances. A miner who is able to output the smallest dominating set for the given graph within the block interval time wins the mining game. We also propose a new chain selection rule that ensures the security of the scheme. Thus our protocol also realizes a decentralized minimal dominating set solver for any graph instance. We provide formal proof of correctness and show via experimental results that the block interval time is within feasible bounds of hash-based PoW. |
 |**2023-08-08**|**An Ethereum-based Product Identification System for Anti-counterfeits**|Shashank Gupta et.al.|[2308.04006](http://arxiv.org/abs/2308.04006)|null|
 |**2023-08-07**|**ForensiBlock: A Provenance-Driven Blockchain Framework for Data Forensics and Auditability**|Asma Jodeiri Akbarfam et.al.|[2308.03927](http://arxiv.org/abs/2308.03927)|null|
-|**2024-11-12**|**Enabling Data Confidentiality with Public Blockchains**|Edoardo Marangone et.al.|[2308.03791](http://arxiv.org/abs/2308.03791)|**[link](https://github.com/apwbs/martsia-ethereum)**|
+|**2024-11-22**|**Enabling Data Confidentiality with Public Blockchains**|Edoardo Marangone et.al.|[2308.03791](http://arxiv.org/abs/2308.03791)|**[link](https://github.com/apwbs/martsia-ethereum)**|
 |**2023-07-25**|**Towards Integrated Traffic Control with Operating Decentralized Autonomous Organization**|Shengyue Yao et.al.|[2308.03769](http://arxiv.org/abs/2308.03769)|null|
 |**2023-08-07**|**When GPT Meets Program Analysis: Towards Intelligent Detection of Smart Contract Logic Vulnerabilities in GPTScan**|Yuqiang Sun et.al.|[2308.03314](http://arxiv.org/abs/2308.03314)|null|
 |**2023-08-19**|**An Empirical Study of AI-based Smart Contract Creation**|Rabimba Karanjai et.al.|[2308.02955](http://arxiv.org/abs/2308.02955)|null|
