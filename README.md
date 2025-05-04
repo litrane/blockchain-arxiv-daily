@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2025.05.03
+## Updated on 2025.05.04
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -1702,7 +1702,7 @@
 |**2023-10-19**|**Building Trust Takes Time: Limits to Arbitrage for Blockchain-Based Assets**|Nikolaus Hautsch et.al.|[1812.00595](http://arxiv.org/abs/1812.00595)| A blockchain replaces central counterparties with time-consuming consensus protocols to record the transfer of ownership. This settlement latency slows cross-exchange trading, exposing arbitrageurs to price risk. Off-chain settlement, instead, exposes arbitrageurs to costly default risk. We show with Bitcoin network and order book data that cross-exchange price differences coincide with periods of high settlement latency, asset flows chase arbitrage opportunities, and price differences across exchanges with low default risk are smaller. Blockchain-based trading thus faces a dilemma: Reliable consensus protocols require time-consuming settlement latency, leading to arbitrage limits. Circumventing such arbitrage costs is possible only by reinstalling trusted intermediation, which mitigates default risk. |
 |**2023-09-24**|**BlockTag: Design and applications of a tagging system for blockchain analysis**|Yazan Boshmaf et.al.|[1809.06044](http://arxiv.org/abs/1809.06044)| Annotating blockchains with auxiliary data is useful for many applications. For example, e-crime investigations of illegal Tor hidden services, such as Silk Road, often involve linking Bitcoin addresses, from which money is sent or received, to user accounts and related online activities. We present BlockTag, an open-source tagging system for blockchains that facilitates such tasks. We describe BlockTag's design and present three analyses that illustrate its capabilities in the context of privacy research and law enforcement. |
 
-<p align=right>(<a href=#Updated-on-20250503>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250504>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
