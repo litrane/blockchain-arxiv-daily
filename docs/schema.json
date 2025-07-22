@@ -1,43 +1,47 @@
 {
-    "@context": {
-        "@version": 1.1,
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "ChainmakerCredential": {
+      "@id": "https://example.com/terms#ChainmakerCredential",
+      "@type": "@id",
+      "@context": {
         "@protected": true,
-        "ChainmakerCredential": {
-            "@id": "https://example.com/terms#ChainmakerCredential"
-        },
         "chainmaker": {
-            "@id": "https://example.com/terms#chainmaker",
-            "@context": {
+          "@id": "https://example.com/terms#chainmaker",
+          "@context": {
+            "@protected": true,
+            "holder": {
+              "@id": "https://example.com/terms#holder",
+              "@context": {
                 "@protected": true,
-                "holder": {
-                    "@id": "https://example.com/terms#holder",
-                    "@context": {
-                        "@protected": true,
-                        "did": {
-                            "@id": "https://example.com/terms#did"
-                        },
-                        "name": {
-                            "@id": "https://example.com/terms#name"
-                        }
-                    }
+                "did": {
+                  "@id": "https://example.com/terms#did"
                 },
-                "issuers": {
-                    "@id": "https://example.com/terms#issuers",
-                    "@container": "@set",
-                    "@context": {
-                        "@protected": true,
-                        "contractAddr": {
-                            "@id": "https://example.com/terms#contractAddr"
-                        },
-                        "did": {
-                            "@id": "https://example.com/terms#did"
-                        },
-                        "name": {
-                            "@id": "https://example.com/terms#name"
-                        }
-                    }
+                "name": {
+                  "@id": "https://example.com/terms#name"
                 }
+              }
+            },
+            "issuers": {
+              "@id": "https://example.com/terms#issuers",
+              "@container": "@set",
+              "@context": {
+                "@protected": true,
+                "contractAddr": {
+                  "@id": "https://example.com/terms#contractAddr"
+                },
+                "did": {
+                  "@id": "https://example.com/terms#did"
+                },
+                "name": {
+                  "@id": "https://example.com/terms#name"
+                }
+              }
             }
+          }
         }
+      }
     }
+  }
 }
