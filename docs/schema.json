@@ -1,43 +1,117 @@
 {
-    "@context": {
-        "@version": 1.1,
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "ChainMakerCredential": {
+      "@id": "https://example.com/terms#ChainMakerCredential",
+      "@type": "@id",
+      "@context": {
         "@protected": true,
-        "ChainmakerCredential": {
-            "@id": "https://example.com/terms#ChainmakerCredential"
-        },
         "chainmaker": {
-            "@id": "https://example.com/terms#chainmaker",
-            "@context": {
+          "@id": "https://example.com/terms#chainmaker",
+          "@context": {
+            "@protected": true,
+            "$schema": {
+              "@id": "https://example.com/terms#schema"
+            },
+            "attachments": {
+              "@id": "https://example.com/terms#attachments",
+              "@container": "@set",
+              "@context": {
                 "@protected": true,
-                "holder": {
-                    "@id": "https://example.com/terms#holder",
-                    "@context": {
-                        "@protected": true,
-                        "did": {
-                            "@id": "https://example.com/terms#did"
-                        },
-                        "name": {
-                            "@id": "https://example.com/terms#name"
-                        }
-                    }
+                "accessPoint": {
+                  "@id": "https://example.com/terms#accessPoint"
                 },
-                "issuers": {
-                    "@id": "https://example.com/terms#issuers",
-                    "@container": "@set",
-                    "@context": {
-                        "@protected": true,
-                        "contractAddr": {
-                            "@id": "https://example.com/terms#contractAddr"
-                        },
-                        "did": {
-                            "@id": "https://example.com/terms#did"
-                        },
-                        "name": {
-                            "@id": "https://example.com/terms#name"
-                        }
-                    }
+                "fileHash": {
+                  "@id": "https://example.com/terms#fileHash"
                 }
+              }
+            },
+            "credentialSubject": {
+              "@id": "https://example.com/terms#credentialSubject",
+              "@context": {
+                "@protected": true,
+                "blNumber": {
+                  "@id": "https://example.com/terms#blNumber"
+                },
+                "consigneeName": {
+                  "@id": "https://example.com/terms#consigneeName"
+                },
+                "notifyPartyName": {
+                  "@id": "https://example.com/terms#notifyPartyName"
+                },
+                "scac": {
+                  "@id": "https://example.com/terms#scac"
+                },
+                "shipperAddressStreet": {
+                  "@id": "https://example.com/terms#shipperAddressStreet"
+                }
+              }
+            },
+            "expirationDate": {
+              "@id": "https://example.com/terms#expirationDate",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "id": {
+              "@id": "https://example.com/terms#id"
+            },
+            "issuanceDate": {
+              "@id": "https://example.com/terms#issuanceDate",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "issuer": {
+              "@id": "https://example.com/terms#issuer"
+            },
+            "proof": {
+              "@id": "https://example.com/terms#proof",
+              "@container": "@set",
+              "@context": {
+                "@protected": true,
+                "created": {
+                  "@id": "https://example.com/terms#created",
+                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+                },
+                "proofPurpose": {
+                  "@id": "https://example.com/terms#proofPurpose"
+                },
+                "proofValue": {
+                  "@id": "https://example.com/terms#proofValue"
+                },
+                "signatureType": {
+                  "@id": "https://example.com/terms#signatureType"
+                },
+                "verificationMethod": {
+                  "@id": "https://example.com/terms#verificationMethod"
+                },
+                "verificationType": {
+                  "@id": "https://example.com/terms#verificationType"
+                }
+              }
+            },
+            "registryStatus": {
+              "@id": "https://example.com/terms#registryStatus",
+              "@context": {
+                "@protected": true,
+                "chain": {
+                  "@id": "https://example.com/terms#chain"
+                },
+                "chainId": {
+                  "@id": "https://example.com/terms#chainId"
+                },
+                "contractAddr": {
+                  "@id": "https://example.com/terms#contractAddr"
+                }
+              }
+            },
+            "targetHash": {
+              "@id": "https://example.com/terms#targetHash"
+            },
+            "type": {
+              "@id": "https://example.com/terms#type"
             }
+          }
         }
+      }
     }
+  }
 }
